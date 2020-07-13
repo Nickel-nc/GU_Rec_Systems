@@ -146,10 +146,18 @@ class MainRecommender:
         
         """Находит товар, похожий на item_id"""
         
+        res = None
+        
         # Товар похож на себя -> рекомендуем 2 товара
-        recs = self.model.similar_items(self.itemid_to_id[item_id], N=2)
+        recs = self.model.similar_items(self.itemid_to_id[item_id], N=100)
+        
+        for rec in recs:
+            if rec[0] in self.ctm:
+                top_rec = recs[1][0]
+                res = self.id_to_itemid[top_rec]
+                return res
+            
         top_rec = recs[1][0]
-#         print(id_to_itemid)
         res = self.id_to_itemid[top_rec]
         return res
         
