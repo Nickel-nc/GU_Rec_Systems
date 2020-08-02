@@ -11,8 +11,10 @@ Train-test split baseline 0.2
 
 Two-level baseline metric 0.14
 
-Train val baseline under restrictions: 0.07
+Public test baseline under restrictions: 0.07
 
-Final metric: 0.277897
+Bottom public score: 0.034
+
+Final Public score: 0.277897
 
 
