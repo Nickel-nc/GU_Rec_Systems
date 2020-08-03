@@ -1,0 +1,4 @@
+numpy
+pandas
+implicit==0.4.2
+scipy
