@@ -15,7 +15,6 @@ Main Module:
 ```
 cd {REPO_FOLDER}
 
-# Run app locally
 # Copy initial data
 
 $ mkdir -p ./item-recommender-app/data
@@ -23,7 +22,7 @@ $ cp /path/to/unpacked/data/*.csv ./data
 $ python Run_1lvl.py
 ```
 
-`nickelnc/item-recommender-app:02` - docker image. 
+`docker pull nickelnc/item-recommender-app:02` - docker image
 
 ### Features
 
