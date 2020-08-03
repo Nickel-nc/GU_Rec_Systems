@@ -2,6 +2,8 @@
 
 ## Overview
 
+[Unpacked recommender sandbox](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/FP_Test.ipynb)
+
 ### Run project locally
 
 
