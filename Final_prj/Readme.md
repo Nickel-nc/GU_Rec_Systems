@@ -22,7 +22,7 @@ $ cp /path/to/unpacked/data/*.csv ./data
 $ python Run_1lvl.py
 ```
 
-`docker pull nickelnc/item-recommender-app:02` - docker image
+`docker run nickelnc/item-recommender-app` - Run Demo from container
 
 ### Features
 
