@@ -2,9 +2,29 @@
 
 ## Overview
 
+### Run project locally
+
+
+```
+cd {ROOT}
+
+# Pull the image
+$ docker pull nickelnc/item-recommender-app
+
+# Copy initial data
+$ mkdir -p ./item-recommender-app/data
+$ cp /path/to/unpacked/data/*.csv ./data
+
+# Run app locally
+$ docker run item-recommender-app
+
+```
+
+### Features
+
 Hybrid recommender (als + own + popular)
 
-### Restrictions:
+#### Restrictions:
 
 - @5 recommendations
 - only > 1$ cost items @ rec
@@ -13,12 +33,7 @@ Hybrid recommender (als + own + popular)
 - different commodities (unique sub_commodity_desc) @ rec
 
 
-### Filters:
-
-N_POPULAR_ITEMS = 4000
-
-
-## Results
+### Results
 
 Scores (MoneyPrecision@5):
 
