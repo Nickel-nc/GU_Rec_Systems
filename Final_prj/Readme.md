@@ -25,7 +25,8 @@ $ python Run_1lvl.py
 
 ```
 nickelnc/item-recommender-app:02 
-``` - docker image. 
+``` 
+- docker image. 
 
 ### Features
 
