@@ -23,10 +23,7 @@ $ cp /path/to/unpacked/data/*.csv ./data
 $ python Run_1lvl.py
 ```
 
-```
-nickelnc/item-recommender-app:02 
-``` 
-- docker image. 
+`nickelnc/item-recommender-app:02` - docker image. 
 
 ### Features
 
