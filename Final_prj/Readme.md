@@ -6,6 +6,9 @@ Unpacked recommender sandbox:
 
 [FP_Test.ipynb](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/FP_Test.ipynb)
 
+Main module:
+[Run_1lvl.py](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/Run_1lvl.py) + src folder
+
 ### Run project locally
 
 
