@@ -8,7 +8,7 @@ Unpacked recommender sandbox:
 
 Main module:
 
-[Run_1lvl.py](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/Run_1lvl.py) + src folder
+[Run_1lvl.py](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/Run_1lvl.py) + [src](https://github.com/Nickel-nc/GU_Rec_Systems/tree/master/Final_prj/src) folder
 
 ### Run project locally
 
