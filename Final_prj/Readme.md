@@ -2,31 +2,30 @@
 
 ## Overview
 
-Unpacked recommender sandbox:
+Unpacked Demo Sandbox:
 
 [FP_Test.ipynb](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/FP_Test.ipynb)
 
-Main module:
+Main Module:
 
 [Run_1lvl.py](https://github.com/Nickel-nc/GU_Rec_Systems/blob/master/Final_prj/Run_1lvl.py) + [src](https://github.com/Nickel-nc/GU_Rec_Systems/tree/master/Final_prj/src) folder
 
 ### Run project locally
 
-
 ```
-cd {ROOT}
-
-# Pull the image
-$ docker pull nickelnc/item-recommender-app
-
-# Copy initial data
-$ mkdir -p ./item-recommender-app/data
-$ cp /path/to/unpacked/data/*.csv ./data
+cd {REPO_FOLDER}
 
 # Run app locally
-$ docker run item-recommender-app
+# Copy initial data
+
+$ mkdir -p ./item-recommender-app/data
+$ cp /path/to/unpacked/data/*.csv ./data
+$ python Run_1lvl.py
+```
 
 ```
+nickelnc/item-recommender-app:02 
+``` - docker image. 
 
 ### Features
 
