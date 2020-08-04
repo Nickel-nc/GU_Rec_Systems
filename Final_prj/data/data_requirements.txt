@@ -1,0 +1,4 @@
+hh_demographic.csv # user features
+product.csv        # item features
+retail_train.csv   # train historical data
+retail_test1.csv   # data to predict
