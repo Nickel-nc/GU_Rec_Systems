@@ -38,17 +38,14 @@ Hybrid recommender (als + own + popular)
 
 
 ### Results
+Scores (MoneyPrecision@5)
 
-Scores (MoneyPrecision@5):
-
-Train-test split baseline 0.2
-
-Two-level baseline metric 0.14
-
-Public test baseline under restrictions: 0.07
-
-Bottom public score: 0.034
-
-Final Public score: 0.277897
+| Type | Score |
+| ------ | ------ |
+|Train-split baseline| 0.2 |
+|Two-level train-split baseline | 0.14 |
+|Public test baseline consider restrictions | 0.07 |
+|Lowest score| 0.034|
+|Final Public score| 0.277897 |
 
 
