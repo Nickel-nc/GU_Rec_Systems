@@ -36,9 +36,9 @@ Hybrid recommender (als + own + popular)
 - at least 1 expensive item > 7 $ @ rec
 - different commodities (unique sub_commodity_desc) @ rec
 
-### Data Flow
+### One Level Data Flow
 
-<img src="figures/dataflow.PNG" alt="dataflow" width="800"/>
+<img src="figures/dataflow.png" alt="dataflow" width="500"/>
 
 ### Results
 Scores (MoneyPrecision@5)
