@@ -38,7 +38,7 @@ Hybrid recommender (als + own + popular)
 
 ### One Level Data Flow
 
-<img src="figures/dataflow.png" alt="dataflow" width="500"/>
+<img src="figures/dataflow.png" alt="dataflow" width="600"/>
 
 ### Results
 Scores (MoneyPrecision@5)
