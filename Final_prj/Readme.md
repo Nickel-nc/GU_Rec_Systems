@@ -38,7 +38,7 @@ Hybrid recommender (als + own + popular)
 
 ### Data Flow
 
-<img src="../figures/dataflow.PNG" alt="dataflow" width="800"/>
+<img src="figures/dataflow.PNG" alt="dataflow" width="800"/>
 
 ### Results
 Scores (MoneyPrecision@5)
